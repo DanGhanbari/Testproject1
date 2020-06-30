@@ -25,20 +25,23 @@
 <body>
 
   <!-- Add your site or application content here -->
-  <h1>Register</h1>
-  <form action="http://www.google.com">
-    <lable for="firstName">First Name: </lable>
-    <input id="firstName" type="text" placeholder="John" required>
-    <lable for="lastName">Last Name: </lable>
-    <input id="lastName "type="text" placeholder="Smith" required>
-  <div>
+  <div class="main">
+   <h1>Register</h1>
+   <form action="http://www.google.com">
+    <div>
+      <lable for="firstName">First Name: </lable>
+      <input id="firstName" type="text" placeholder="John" required>
+      <lable for="lastName">Last Name: </lable>
+      <input id="lastName "type="text" placeholder="Smith" required>
+    </div>
+   <div>
     <lable for="male">Male</lable>
     <input id="male" name="gender" type="radio" valu="male" checked required="required">
     <lable for="female">Female</lable>
     <input id="female" name="gender" type="radio" value="female">
     <lable for="other">Other</lable>
     <input id="other" name="gender" type="radio" value="other">
-  </div>
+   </div>
     <div>
       <lable for="email">Email: </lable>
       <input id="email" name="email" type="email" placeholder="Your email" required>
@@ -97,7 +100,7 @@
           <option>Dec</option>
         </select>
         <select name="year" required="required">
-          <option value="">yare</option>
+          <option value="">year</option>
           <option>1970</option>
           <option>1971</option>
           <option>1972</option>
@@ -131,15 +134,16 @@
           <option>2000</option>
           <option>2001</option>
           <option>2002</option>
-        </select>gir
+        </select>
       </lable>
     </div>
     <div>
       <lable for="terms">I agree to the terms and conditions: </lable>
       <input id="terms" name="terms" type="checkbox" required>
-    </div>
-    <button>submit</button>
-  </form>
+     </div>
+      <button>submit</button>
+    </form>
+  </div>
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
