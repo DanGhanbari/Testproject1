@@ -1,0 +1,22 @@
+body {
+    border: #888888 15px solid;
+    padding: 2%;
+}
+h5 {
+    color: steelblue;
+    letter-spacing: 2px;
+}
+h1 {
+    color: midnightblue;
+}
+
+hr {
+    color: #888888;
+    height: 2px;
+    background: #cccccc;
+    border: none;
+}
+.first {
+    border-left: #888888 4px solid;
+    padding-left: 4px;
+}
